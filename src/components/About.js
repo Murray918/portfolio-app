@@ -9,7 +9,8 @@ export default class About extends Component {
        <p className="lead"> I am a full stack developer that likes to live it up and party down!!!!!!</p>
        <hr className="my-4"></hr>
        <p className="lead">I was party pooped on by my previous career choices, but decided to brush it off crip walk all over the face of fate. Here I am now making stuff on the interwebs.</p>
-     </div> 
+       <a className="btn btn-primary btn-lg" href="/portfolio" role="button">See My Work</a>
+     </div>
   )
 }
 

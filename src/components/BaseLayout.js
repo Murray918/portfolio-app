@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 export default class BaseLayout extends Component {
 
@@ -10,13 +10,22 @@ export default class BaseLayout extends Component {
           <div className="navbar-header">
             <ul className="nav navbar-nav">
               <li>
-                <Link to="/">Home</Link>
+                <NavLink to="/">Splash</NavLink>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <NavLink to="/home">Home</NavLink>
               </li>
               <li>
-                <Link to="/portfolio">Portfolio</Link>
+                <NavLink to="/about">About</NavLink>
+              </li>
+              <li>
+                <NavLink to="/portfolio">Portfolio</NavLink>
+              </li>
+              <li>
+                <NavLink to="/refrences">Refrences</NavLink>
+              </li>
+              <li>
+                <NavLink to="/contacts">Contacts</NavLink>
               </li>
             </ul>
           </div>

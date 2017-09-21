@@ -20,7 +20,7 @@ import sc3 from '../images/Confetti.jpg';
             <img src={sc2} style={imgStyle} alt='hi'></img>
             <img src={sc3} style={imgStyle} alt='hi'></img>
             <p className="lead">
-              <a className="btn btn-success" href="#" role="button">See more</a>
+              <a className="btn btn-success" href="/contacts" role="button">See more</a>
             </p>
           </div>
         </div>
